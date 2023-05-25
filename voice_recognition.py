@@ -48,9 +48,6 @@ def main(duration):
             speak("Hi there!")
         elif "how are you" in text:
             speak("I'm doing well, thank you for asking.")
-        elif "what time is it" in text:
-            # TODO: Implement time functionality
-            speak("Sorry, I'm not sure what time it is.")
         elif "goodbye" in text:
             speak("Goodbye!")
             break
